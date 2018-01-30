@@ -1,0 +1,139 @@
+
+
+Project 4: Heap Sort: 
+Based on 1D implementation of Partial Order Binary Trees/Priority Q
+taught in class.
+
+
+**** Language: *C++*
+
+Due Date: Soft copy: 10/8/2017 Sunday before midnight
+          Hard copy: 10/10/2017 Tuessday in class
+
+**********************************************
+I. Input: a text file contains a list of numbers (positive integers). 
+       	Use argv[]
+
+**********************************************
+II. Outputs Use argv[ ]: 
+	(1) outFile1, a text file contains the debugging output.
+		
+	(2) outFile2, a text file contains the sorted  input numbers.
+    	 	
+**********************************************
+III. Data structure:
+  A HeapSort class
+	- rootIndex
+	- fatherIndex
+	- leftKidIndex
+	- rightKidIndex
+	- minKidIndex
+
+	- heapAry[], an 1-D integer array (dynamically allocated within the program)
+
+     methods:
+	- constructor // The name of the constructor is the name of the class
+	- buildHeap
+	- deleteHeap
+	- insertOneDataItem (data) // put the data at the end of the heapAry
+				// make sure heap is not full 
+				// make sure increment heapAry[0]
+	- getRoot     // returns the data in the root 
+	- deleteRoot(..)  // move the last item in headAry to root
+				 
+	- bubbleUp (...) 
+	- bubbleDown (...)
+	- isLeaf (index) // returns true, if both kids' index are out of range
+	- isRoot (index) // if index == 1
+	- findMinKidIndex (fatherIndex) // returns the index of the smaller of its two kids
+                       // Make sure you do NOT check leftKidIndex or rightKidIndex that is out of range!!!
+	- isHeapEmpty 
+	- isHeapFull 
+	- printHeap // Print the entire heap, begin at index 0
+	 etc..
+		
+**********************************************
+HeapSort Algorihtm steps:
+**********************************************
+
+Step 0: 
+	- inFile <-- open the input file; 
+	- read and count the number of date items in the  inFile
+	- close inFile
+	- dynamically allocate heapAry[] of the size count+1
+	  and initallize heapAry[0] to 0. Remember, heapAry[1] is the root of the tree
+	  and heapAry[0] is the last index used in heapAry.
+	- outFile1 <-- open for writing
+	- outFile2 <-- open for writing
+
+step 1: call buildHeap (see algorithm below) 
+
+step 2: call deleteHeap (see algorithm below)
+
+step 3: close all files
+ 
+**********************************************
+buildHeap algorithm steps:
+**********************************************
+
+    step 1: inFile <-- open the input file for the *second time*
+ 	    rootInex <-- 1
+
+    step 2: data <-- get a data item from the inFile
+
+    step 3: insertOneDataItem (data) // put data at the end of heap	
+	    kidIndex <-- heapAry[0] // last index
+	    bubbleUp (kidIndex) // written in recursion see algorithm below
+   
+    step 4: printHeap to outFile1 // debugging file
+            // in the real life, this is only for your debugging purpose
+
+    step 5: repeat step 2 - step 4 while inFile is NOT empty
+		
+ 
+**********************************************
+bubbleUp (kidIndex):
+**********************************************
+
+if( isRoot(kidIndex)) 
+	return
+else 
+	fatherIndex <-- kidIndex / 2
+	if heapAry[kidIndex] < heapAry[fatherIndex]
+	   swap the two
+        bubbleUp(fatherIndex) 
+            
+**********************************************
+deleteRoot algorithm steps:
+**********************************************
+ 
+    step 1: data <-- getRoot (..)
+	    print data to outFile2 // the sorted output
+	    deletRoot (..) // move the last item in headAry to root
+	    fatherIndex <-- rootIndex
+	    bubbleDown (fatherIndex) // written in recursion see algorithm below
+
+    step 2: printHeap to outFile1 // debugging file
+            
+    step 3: repeat step 1 - step 2 while the heap is NOT empty
+ 
+**********************************************
+bubbleDown (fatherIndex):
+**********************************************
+
+if(isLeaf(fatherIndex)) 
+	return
+else 
+	leftKidIndex <-- fatherIndex * 2
+	rightKidIndex <-- fatherIndex * 2 + 1
+
+	minIndex <-- findMinKidIndex(leftKidIndex, rightKidIndex)
+			// do NOT check leftKidInde or rightKidIndex that is out of range!!!
+
+	if heapAry[minIndex] < heapAry[fatherIndex]
+	   swap the two
+       
+	 bubbleDown(minIndex) 
+            
+		 
+

@@ -1,0 +1,170 @@
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 3
+4 is in : group 4
+5 is in : group 5
+6 is in : group 6
+7 is in : group 7
+8 is in : group 8
+9 is in : group 9
+
+edgeListHead --> <0,0,0> --> <6,4,3>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <6,4,3>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <6,4,3> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <6,4,3> --> <5,7,5> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <1,6,3> --> <6,4,3> --> <5,7,5> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <8,6,2> --> <1,6,3> --> <6,4,3> --> <5,7,5> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <9,8,2> --> <8,6,2> --> <1,6,3> --> <6,4,3> --> <5,7,5> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <5,7,5> --> <3,2,5>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+edgeListHead --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5>
+
+
+------------------------------------------------------
+numset:8
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 3
+4 is in : group 2
+5 is in : group 5
+6 is in : group 6
+7 is in : group 7
+8 is in : group 8
+9 is in : group 9
+
+MSTofG --> <0,0,0> --> <2,4,1>
+
+edgeListHead --> <0,0,0> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:7
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 3
+4 is in : group 2
+5 is in : group 5
+6 is in : group 6
+7 is in : group 6
+8 is in : group 8
+9 is in : group 9
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2>
+
+edgeListHead --> <0,0,0> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:6
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 3
+4 is in : group 2
+5 is in : group 5
+6 is in : group 6
+7 is in : group 6
+8 is in : group 8
+9 is in : group 8
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2>
+
+edgeListHead --> <0,0,0> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:5
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 3
+4 is in : group 2
+5 is in : group 5
+6 is in : group 6
+7 is in : group 6
+8 is in : group 6
+9 is in : group 6
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2>
+
+edgeListHead --> <0,0,0> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:4
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 2
+4 is in : group 2
+5 is in : group 5
+6 is in : group 6
+7 is in : group 6
+8 is in : group 6
+9 is in : group 6
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3>
+
+edgeListHead --> <0,0,0> --> <1,6,3> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:3
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 2
+3 is in : group 2
+4 is in : group 2
+5 is in : group 5
+6 is in : group 1
+7 is in : group 1
+8 is in : group 1
+9 is in : group 1
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3>
+
+edgeListHead --> <0,0,0> --> <6,4,3> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:2
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 1
+3 is in : group 1
+4 is in : group 1
+5 is in : group 5
+6 is in : group 1
+7 is in : group 1
+8 is in : group 1
+9 is in : group 1
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3>
+
+edgeListHead --> <0,0,0> --> <3,5,4> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
+------------------------------------------------------
+numset:1
+inWhichSet array: 
+1 is in : group 1
+2 is in : group 1
+3 is in : group 1
+4 is in : group 1
+5 is in : group 1
+6 is in : group 1
+7 is in : group 1
+8 is in : group 1
+9 is in : group 1
+
+MSTofG --> <0,0,0> --> <2,4,1> --> <6,7,2> --> <9,8,2> --> <8,6,2> --> <4,3,3> --> <1,6,3> --> <6,4,3> --> <3,5,4>
+
+edgeListHead --> <0,0,0> --> <5,7,5> --> <3,2,5> --> <1,2,6>
+
