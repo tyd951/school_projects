@@ -1,0 +1,28 @@
+What you need to do on project 1.1, 1.2, 1.3:
+
+1) Run your histogram program on Proj1_data1.
+2) Run your threshold program on Proj1_data1 4 separate times,
+         using four different threshold values:
+        4, 5, 6 and 7
+
+     Afterward, you should have four different output files:
+        Proj1_data1_thr_4
+        Proj1_data1_thr_5
+        Proj1_data1_thr_6
+        Proj1_data1_thr_7
+
+3) Run your prettyPring program on  each threshold outputs,
+     Afterward, you should have four different output files:
+
+        Proj1_data1_thr_4_PP
+        Proj1_data1_thr_5_PP
+        Proj1_data1_thr_6_PP
+        Proj1_data1_thr_7_PP
+
+4) Submit soft copies of project 1.1, 1.2, and 1.3 in three(3) 
+   seperate emails!!!!!!!! (You must follow the instruction stated in project
+   submission specs.)
+ 
+5) Submit hard copies of project 1.1, 1.2, and 1.3 in three(3) 
+   seperate stacks!!!!!!!! (You must follow the instructions 
+   in HardCopySubmission specs given.) 
