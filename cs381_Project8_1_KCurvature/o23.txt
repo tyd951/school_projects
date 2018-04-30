@@ -1,0 +1,169 @@
+x:1, y:20, curvature:0, corner:0
+x:2, y:19, curvature:0, corner:0
+x:3, y:18, curvature:0, corner:0
+x:4, y:17, curvature:0, corner:0
+x:5, y:16, curvature:0, corner:0
+x:6, y:15, curvature:0, corner:0
+x:7, y:14, curvature:0, corner:0
+x:8, y:13, curvature:0, corner:0
+x:9, y:12, curvature:0, corner:0
+x:10, y:11, curvature:0, corner:0
+x:11, y:10, curvature:0, corner:0
+x:12, y:9, curvature:0, corner:0
+x:13, y:8, curvature:0, corner:0
+x:14, y:7, curvature:0, corner:0
+x:15, y:6, curvature:0, corner:0
+x:16, y:7, curvature:0, corner:0
+x:17, y:8, curvature:0, corner:0
+x:18, y:9, curvature:0, corner:0
+x:19, y:10, curvature:0, corner:0
+x:20, y:11, curvature:0, corner:0
+x:21, y:12, curvature:0, corner:0
+x:22, y:13, curvature:0, corner:0
+x:23, y:14, curvature:0, corner:0
+x:24, y:15, curvature:0, corner:0
+x:25, y:16, curvature:0, corner:0
+x:26, y:17, curvature:0, corner:0
+x:27, y:18, curvature:0, corner:0
+x:28, y:19, curvature:0, corner:0
+x:29, y:20, curvature:0, corner:0
+x:28, y:21, curvature:0, corner:0
+x:27, y:22, curvature:0, corner:0
+x:26, y:23, curvature:0, corner:0
+x:25, y:24, curvature:0, corner:0
+x:24, y:25, curvature:0, corner:0
+x:23, y:26, curvature:0, corner:0
+x:22, y:27, curvature:0, corner:0
+x:21, y:28, curvature:0, corner:0
+x:20, y:29, curvature:0, corner:0
+x:19, y:30, curvature:0, corner:0
+x:18, y:31, curvature:0, corner:0
+x:17, y:32, curvature:0, corner:0
+x:16, y:33, curvature:0, corner:0
+x:15, y:34, curvature:0, corner:0
+x:14, y:33, curvature:0, corner:0
+x:13, y:32, curvature:0, corner:0
+x:12, y:31, curvature:0, corner:0
+x:11, y:30, curvature:0, corner:0
+x:10, y:29, curvature:0, corner:0
+x:9, y:28, curvature:0, corner:0
+x:8, y:27, curvature:0, corner:0
+x:7, y:26, curvature:0, corner:0
+x:6, y:25, curvature:0, corner:0
+x:5, y:24, curvature:0, corner:0
+x:4, y:23, curvature:0, corner:0
+x:3, y:22, curvature:0, corner:0
+x:2, y:21, curvature:0, corner:0
+Q:0, P:1, R:2, index:1, x:2, y:19, curvature:0
+Q:1, P:2, R:3, index:2, x:3, y:18, curvature:0
+Q:2, P:3, R:4, index:3, x:4, y:17, curvature:0
+Q:3, P:4, R:5, index:4, x:5, y:16, curvature:0
+Q:4, P:5, R:6, index:5, x:6, y:15, curvature:0
+Q:5, P:6, R:7, index:6, x:7, y:14, curvature:0
+Q:6, P:7, R:8, index:7, x:8, y:13, curvature:0
+Q:7, P:8, R:9, index:8, x:9, y:12, curvature:0
+Q:8, P:9, R:10, index:9, x:10, y:11, curvature:0
+Q:9, P:10, R:11, index:10, x:11, y:10, curvature:0
+Q:10, P:11, R:12, index:11, x:12, y:9, curvature:0
+Q:11, P:12, R:13, index:12, x:13, y:8, curvature:0
+Q:12, P:13, R:14, index:13, x:14, y:7, curvature:0
+Q:13, P:14, R:15, index:14, x:15, y:6, curvature:2.0202
+Q:14, P:15, R:16, index:15, x:16, y:7, curvature:0
+Q:15, P:16, R:17, index:16, x:17, y:8, curvature:0
+Q:16, P:17, R:18, index:17, x:18, y:9, curvature:0
+Q:17, P:18, R:19, index:18, x:19, y:10, curvature:0
+Q:18, P:19, R:20, index:19, x:20, y:11, curvature:0
+Q:19, P:20, R:21, index:20, x:21, y:12, curvature:0
+Q:20, P:21, R:22, index:21, x:22, y:13, curvature:0
+Q:21, P:22, R:23, index:22, x:23, y:14, curvature:0
+Q:22, P:23, R:24, index:23, x:24, y:15, curvature:0
+Q:23, P:24, R:25, index:24, x:25, y:16, curvature:0
+Q:24, P:25, R:26, index:25, x:26, y:17, curvature:0
+Q:25, P:26, R:27, index:26, x:27, y:18, curvature:0
+Q:26, P:27, R:28, index:27, x:28, y:19, curvature:0
+Q:27, P:28, R:29, index:28, x:29, y:20, curvature:2.0002
+Q:28, P:29, R:30, index:29, x:28, y:21, curvature:0
+Q:29, P:30, R:31, index:30, x:27, y:22, curvature:0
+Q:30, P:31, R:32, index:31, x:26, y:23, curvature:0
+Q:31, P:32, R:33, index:32, x:25, y:24, curvature:0
+Q:32, P:33, R:34, index:33, x:24, y:25, curvature:0
+Q:33, P:34, R:35, index:34, x:23, y:26, curvature:0
+Q:34, P:35, R:36, index:35, x:22, y:27, curvature:0
+Q:35, P:36, R:37, index:36, x:21, y:28, curvature:0
+Q:36, P:37, R:38, index:37, x:20, y:29, curvature:0
+Q:37, P:38, R:39, index:38, x:19, y:30, curvature:0
+Q:38, P:39, R:40, index:39, x:18, y:31, curvature:0
+Q:39, P:40, R:41, index:40, x:17, y:32, curvature:0
+Q:40, P:41, R:42, index:41, x:16, y:33, curvature:0
+Q:41, P:42, R:43, index:42, x:15, y:34, curvature:1.9802
+Q:42, P:43, R:44, index:43, x:14, y:33, curvature:0
+Q:43, P:44, R:45, index:44, x:13, y:32, curvature:0
+Q:44, P:45, R:46, index:45, x:12, y:31, curvature:0
+Q:45, P:46, R:47, index:46, x:11, y:30, curvature:0
+Q:46, P:47, R:48, index:47, x:10, y:29, curvature:0
+Q:47, P:48, R:49, index:48, x:9, y:28, curvature:0
+Q:48, P:49, R:50, index:49, x:8, y:27, curvature:0
+Q:49, P:50, R:51, index:50, x:7, y:26, curvature:0
+Q:50, P:51, R:52, index:51, x:6, y:25, curvature:0
+Q:51, P:52, R:53, index:52, x:5, y:24, curvature:0
+Q:52, P:53, R:54, index:53, x:4, y:23, curvature:0
+Q:53, P:54, R:55, index:54, x:3, y:22, curvature:0
+Q:54, P:55, R:0, index:55, x:2, y:21, curvature:0
+Q:55, P:0, R:1, index:0, x:1, y:20, curvature:2.0002
+print the info (x, y, curvature) of the entire PtAry:
+x:1, y:20, curvature:2.0002
+x:2, y:19, curvature:0
+x:3, y:18, curvature:0
+x:4, y:17, curvature:0
+x:5, y:16, curvature:0
+x:6, y:15, curvature:0
+x:7, y:14, curvature:0
+x:8, y:13, curvature:0
+x:9, y:12, curvature:0
+x:10, y:11, curvature:0
+x:11, y:10, curvature:0
+x:12, y:9, curvature:0
+x:13, y:8, curvature:0
+x:14, y:7, curvature:0
+x:15, y:6, curvature:2.0202
+x:16, y:7, curvature:0
+x:17, y:8, curvature:0
+x:18, y:9, curvature:0
+x:19, y:10, curvature:0
+x:20, y:11, curvature:0
+x:21, y:12, curvature:0
+x:22, y:13, curvature:0
+x:23, y:14, curvature:0
+x:24, y:15, curvature:0
+x:25, y:16, curvature:0
+x:26, y:17, curvature:0
+x:27, y:18, curvature:0
+x:28, y:19, curvature:0
+x:29, y:20, curvature:2.0002
+x:28, y:21, curvature:0
+x:27, y:22, curvature:0
+x:26, y:23, curvature:0
+x:25, y:24, curvature:0
+x:24, y:25, curvature:0
+x:23, y:26, curvature:0
+x:22, y:27, curvature:0
+x:21, y:28, curvature:0
+x:20, y:29, curvature:0
+x:19, y:30, curvature:0
+x:18, y:31, curvature:0
+x:17, y:32, curvature:0
+x:16, y:33, curvature:0
+x:15, y:34, curvature:1.9802
+x:14, y:33, curvature:0
+x:13, y:32, curvature:0
+x:12, y:31, curvature:0
+x:11, y:30, curvature:0
+x:10, y:29, curvature:0
+x:9, y:28, curvature:0
+x:8, y:27, curvature:0
+x:7, y:26, curvature:0
+x:6, y:25, curvature:0
+x:5, y:24, curvature:0
+x:4, y:23, curvature:0
+x:3, y:22, curvature:0
+x:2, y:21, curvature:0
